@@ -1,0 +1,46 @@
+.login-wrapper {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.postimg.cc/gk0R82TN/abstract-digital-technology-background-with-concept-security-vector.jpg");
+  min-height: 88vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin-top: 0px;
+}
+.login-card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #111827;
+}
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.error-msg {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}

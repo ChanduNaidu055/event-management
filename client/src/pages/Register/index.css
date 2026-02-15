@@ -1,0 +1,53 @@
+.register-wrapper {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.postimg.cc/4yP6ZKFx/360-F-292905667-y-FUJNJPng-Ye-RNlr-RL4h-Ap-HWxu-Yy-RY4k-N.jpg");
+  min-height: 87vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.register-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+}
+.register-card h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #1f2937;
+}
+.register-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+.already-account-login-msg {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}
+.already-account-login-msg a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}

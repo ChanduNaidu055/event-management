@@ -1,0 +1,39 @@
+.home-container {
+  padding: 40px;
+  background-image: url("https://i.postimg.cc/fLX54RNZ/faded-gallery-Ofd-OEd-GYiuk-unsplash.jpg");
+  background-size: cover;
+  min-height: 76vh;
+  background-repeat: no-repeat;
+}
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.home-title {
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 40px;
+}
+.filter-section {
+  display: flex;
+  gap: 15px;
+}
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+}
+.category-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
