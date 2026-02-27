@@ -62,6 +62,12 @@ cd client
 npm install
 npm start
 
+## Frontend:
+https://event-management-nine-hazel.vercel.app
+
+## Backend:
+https://eventmanagement-backend-e6a1.onrender.com/api/seed
+
 # Future Improvements:
 
 1 Add an Admin Dashboard for event creation.
